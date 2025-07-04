@@ -20,7 +20,7 @@ function Body() {
     if (file) formData.append('file', file);
 
     try {
-      const response = await fetch(' https://locker-mnlb.onrender.com/upload', {
+      const response = await fetch('https://locker-mnlb.onrender.com/upload', {
         method: 'POST',
         body: formData,
       });
@@ -44,7 +44,7 @@ function Body() {
     if (!retrieveCode) return alert("Enter secret code to retrieve");
 
     try {
-      const response = await fetch(' https://locker-mnlb.onrender.com/retrieve', {
+      const response = await fetch('https://locker-mnlb.onrender.com/retrieve', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ secretCode: retrieveCode }),
