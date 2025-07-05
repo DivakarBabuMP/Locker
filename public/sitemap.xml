@@ -1,32 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
-
-  <!-- Home Page -->
-  <url>
-    <loc>https://yourdomain.com/</loc>
-    <priority>1.00</priority>
-    <changefreq>daily</changefreq>
-  </url>
-
-  <!-- About Page -->
-  <url>
-    <loc>https://yourdomain.com/about</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-
-  <!-- Contact Page -->
-  <url>
-    <loc>https://yourdomain.com/contact</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-
-  <!-- Donate Page -->
-  <url>
-    <loc>https://yourdomain.com/donate</loc>
-    <priority>0.7</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!--  created with Free Online Sitemap Generator www.xml-sitemaps.com  -->
+<url>
+<loc>https://lockeralpha.netlify.app/</loc>
+<lastmod>2025-07-05T04:11:42+00:00</lastmod>
+</url>
 </urlset>
